@@ -1,0 +1,6 @@
+::1(admin)--update--user([["","id","=",21],["AND","role","=",3]]) (12:07:41 29/09/2022)
+::1(admin)--update--bannerqc([["","type","=","logo"]]) (12:09:08 29/09/2022)
+::1(admin)--update--photo([["","id","=",10]]) (12:09:42 29/09/2022)
+::1(admin)--update--baiviet([["","id","=",69]]) (12:10:14 29/09/2022)
+::1(admin)--query--tables(delete from table_seo where idmuc = '69' and com = 'baiviet' and act = 'man' and type = 'du-an') (12:10:14 29/09/2022)
+::1(admin)--insert--seo(431) (12:10:14 29/09/2022)
